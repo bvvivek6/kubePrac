@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: k8s-demo-config
+
+date:
+  APP_MESSAGE: "Hello from kubernetes configMap"
